@@ -1,0 +1,18 @@
+// Given an array,find the length longest increasing subsequence(LIS)
+#include <bits/stdc++.h>
+using namespace std;
+const int inf = 1e9+7 , N = 1e3,mod=1e9+7;
+int n,ar[N], dp[N][N];
+int LIS(int i,int j){
+     if(i == n+1) return 0;
+     if(dp[i][j] != -1) return dp[i][j];
+     int ans = LIS(i+1,j);
+     if(ar[i] >= ar[j]) ans = max(ans,1+LIS(i+1,i));
+     return dp[i][j] = ans;
+}
+int main() {
+     memset(dp,-1,sizeof dp);
+     cin >> n;
+     for(int i = 1; i <= n; i++) cin >> ar[i];
+     cout << LIS(1,0) << endl;
+}
