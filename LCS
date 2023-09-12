@@ -1,0 +1,36 @@
+//Given two string a,b.Find longest common subsequence(LCS) 
+#include <bits/stdc++.h>
+using namespace std;
+const int inf = 1e9+7 , N = 1e3+3,mod=1e9+7;
+int n,m;
+string a,b;
+int dp[N][N];
+int f(int i, int j){
+     if(i == n || j== m) return 0;
+     if(dp[i][j] != -1) return dp[i][j];
+     int ans = 0;
+     if(a[i] == b[j]){
+          ans = 1 + f(i+1,j+1);
+     }
+     ans = max(ans, f(i+1,j));
+     ans = max(ans, f(i,j+1));
+     return  dp[i][j] = ans;
+}
+void print(int i, int j){
+     if(i == n || j == m) return;
+     if(a[i] == b[j]){
+          cout << a[i] <<"";
+          print(i+1,j+1);return;
+     }
+     if(dp[i+1][j] > dp[i][j+1])print(i+1,j);
+     else print(i,j+1);
+}
+int main(){
+     cin >> a >> b;
+     n = a.length();
+     m = b.length();
+     memset(dp,-1,sizeof dp);
+     cout << f(0,0) << endl;
+     print(0,0);
+}
+
