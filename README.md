@@ -15,4 +15,6 @@
   [Problem-05(Longest palindromic subsequence):](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2092)
    [My Solution](https://pastebin.com/aW7HZQ9g)
 
+   [Problem-06(Coin combination):](https://cses.fi/problemset/task/1635/) [My solution](https://cses.fi/paste/70f34ecd7b59166b6c86ec/)
+
 </details>
