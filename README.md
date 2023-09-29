@@ -6,7 +6,7 @@
  
   [Problem-01 : DP on Grid](https://pastebin.com/yXdsbtSn/) 
 
-  [Problem-02 : ](https://atcoder.jp/contests/dp/tasks/dp_d) [My Solution](https://atcoder.jp/contests/dp/submissions/44843831)
+  [Problem-02(Knapsack) : ](https://atcoder.jp/contests/dp/tasks/dp_d) [My Solution](https://atcoder.jp/contests/dp/submissions/44843831)
   
   [Problem-03(Tree coloring) :](https://atcoder.jp/contests/dp/tasks/dp_p?lang=en) [My Solution](https://atcoder.jp/contests/dp/submissions/45479281)
 
@@ -22,6 +22,8 @@
 
 
  [Problem-08(candy):](https://atcoder.jp/contests/dp/tasks/dp_m) [>>My Solution](https://atcoder.jp/contests/dp/submissions/45957131)
+
+ [Problem-09(DP+segment tree+co-ordinate compression):](https://cses.fi/problemset/task/1145) [>>My Solution](https://cses.fi/paste/14efe728903db3246c19fb/)[>>Solution with Binary search](https://cses.fi/paste/ca67fd3322a99abe6c1a6e/)
 
  
 </details>
