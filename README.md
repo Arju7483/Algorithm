@@ -25,6 +25,8 @@
 
  [Problem-09 (LIS+segment tree+co-ordinate compression) :](https://cses.fi/problemset/task/1145) [>>My Solution](https://cses.fi/paste/14efe728903db3246c19fb/)[>>Solution with Binary search](https://cses.fi/paste/ca67fd3322a99abe6c1a6e/)
 
+ [Problem-10 (LIS+Segment tree) :](https://atcoder.jp/contests/dp/tasks/dp_q) [>>My Solution](https://atcoder.jp/contests/dp/submissions/46026528)
+
  
 </details>
 
