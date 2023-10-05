@@ -27,6 +27,8 @@
 
  [Problem-10 (LIS+Segment tree) :](https://atcoder.jp/contests/dp/tasks/dp_q) [>>My Solution](https://atcoder.jp/contests/dp/submissions/46026528)
 
+ [Problem-11 (Task Schedulling) :](https://cses.fi/problemset/task/1140/) [>>My Solution](https://cses.fi/paste/6c072e640787358f6f894f/)
+
  
 </details>
 
