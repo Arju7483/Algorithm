@@ -1,0 +1,37 @@
+Problem Link: https://cses.fi/problemset/task/1634/
+My Submision:https://cses.fi/problemset/result/7303340/
+//First Solve the problem recursively,then convert to interative, the transition are the same.
+#include<bits/stdc++.h>
+using namespace std;
+using ll = long long;
+const long long inf = 1e9+5;
+const int N = 105,MX = 1e6+7, mod = 100000007;
+int n, k, ar[N], dp[N][MX];
+int f(int i,int sum){
+     if(i == n + 1) {
+          if(sum == 0) return 0;
+          else return inf;
+     }
+     if(dp[i][sum] != -1) return dp[i][sum];
+     int ans = f(i+1,sum);
+
+     if(sum >= ar[i])ans = min(ans,1+f(i,sum-ar[i]));
+    
+    return dp[i][sum] = ans ;
+}
+int main(){
+    ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+
+//memset(dp,-1,sizeof dp);
+cin >> n >> k;
+for(int i = 1; i <= n; i++) cin >> ar[i];
+for(int i=0;i<MX;i++) dp[n+1][i] = inf; // set as infinity
+dp[n+1][0] = 0; /// base case
+for(int i = n; i >= 1; i--){
+     for(int sum = 0; sum <= k; sum++){
+          dp[i][sum] = dp[i+1][sum];
+          if(sum >= ar[i]) dp[i][sum] = min(dp[i][sum],1+dp[i][sum-ar[i]]);
+     }
+}
+ (dp[1][k] != inf)? cout <<dp[1][k]<< '\n':cout << -1 << '\n';
+}
