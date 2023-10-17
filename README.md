@@ -34,7 +34,7 @@
 
 <details markdown = "1"><summary>Random DP Problem</summary>
 
- [Problem-01 : ](https://codeforces.com/contest/812/problem/B) [My Solution](https://codeforces.com/contest/812/submission/228498928)
+ [Problem-01 (Knapsack Variation) : ](https://codeforces.com/contest/812/problem/B) [My Solution](https://codeforces.com/contest/812/submission/228498928)
  
  </details>
  
