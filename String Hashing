@@ -2,36 +2,38 @@
 // two base(p1 and p2) and tow mod (mod1 and mod2)
 #include<bits/stdc++.h>
 using namespace std;
-using ll = long long;
-const int N = 1e5+7, p1 = 177, p2 = 277, mod1 = 1e9+7,mod2 = 1e9+9; // p1 and p2 are base for double hashing
-int power1[N],power2[N];
-void power_calculate(){
-    power1[0] = 1;power2[0] = 1;
-    for(int i = 1; i < N; i++){
-        power1[i] = (1LL*power1[i-1] * p1) % mod1;
-        power2[i] = (1LL*power2[i-1] * p2) % mod2;
-    }
 
-}
-ll Hash_Value(string s){
-    int hs1 = 0, hs2 = 0;
-    int n = s.length();
-    for(int i = 0; i < n; i++){
-        hs1 += (1LL* s[i] * power1[i]) % mod1;
-        hs2 += (1LL* s[i] * power2[i]) % mod2;
-        hs1 %= mod1;
-        hs2 %= mod2;
-    }
-    ll ans = 1LL*hs1 * mod2 + 1LL*hs2; // we can also use hs1 * (any base) + hs2
-    return ans;
-}
-int main(){
-    ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+const int N = 1e6 + 9;
+const int p1 = 137, mod1 = 127657753, p2 = 277, mod2 = 987654319;
 
-power_calculate();
-string s1,s2; cin >> s1 >> s2;
-ll a,b;
-a = Hash_Value(s1);
-b = Hash_Value(s2);
-cout << a << " " << b <<endl;
+pair<int, int> pw[N];
+void power_calculate() {
+  pw[0] =  {1, 1};
+  for (int i = 1; i < N; i++) {
+    pw[i].first = 1LL * pw[i - 1].first * p1 % mod1;
+    pw[i].second = 1LL * pw[i - 1].second * p2 % mod2;
+  }
+}
+
+pair<int, int> Get_hash(string s) {
+  int n = s.size();
+  pair<int, int> hs({0, 0});
+  for (int i = 0; i < n; i++) {
+    hs.first += 1LL * s[i] * pw[i].first % mod1;
+    hs.first %= mod1;
+    hs.second += 1LL * s[i] * pw[i].second % mod2;
+    hs.second %= mod2;
+  }
+  return hs;
+}
+
+int32_t main() {
+  ios_base::sync_with_stdio(0);
+  cin.tie(0);
+  power_calculate();
+  string s;
+  cin >> s;
+  auto ans = Get_hash(s);
+  cout << ans.first << " " << ans.second << '\n';
+  return 0;
 }
