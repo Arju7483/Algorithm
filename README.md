@@ -46,6 +46,9 @@
 
 [Problem-01 (Longest Common Substring) :](https://acm.timus.ru/problem.aspx?space=1&num=1517) [>> My Solution](https://pastebin.com/V7HF5sit)
 
+[Problem-02 (Pattern Matching) :](https://cses.fi/problemset/task/1753/) [>> My Solution](https://cses.fi/paste/7e1b1cf11ea2a6ce71aae5/)
+
+
 
 
 </details>
