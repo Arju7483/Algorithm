@@ -1,0 +1,88 @@
+//Given a string and a pattern,find the number of occurance of the pattern in the given string
+#include<bits/stdc++.h>
+using namespace std;
+using ll = long long;
+const int N = 1e6+7, p1 = 177, p2 = 277, mod1 = 1e9+7, mod2 = 1e9+9; 
+int power(long long n, long long k, int mod) {
+  int ans = 1 % mod; n %= mod; if (n < 0) n += mod;
+  while (k) {
+    if (k & 1) ans = (long long) ans * n % mod;
+    n = (long long) n * n % mod;
+    k >>= 1;
+  }
+  return ans;
+}
+ 
+int power1[N],power2[N];
+pair<int,int>invMod[N];
+void power_calculate(){
+	power1[0] = 1, power2[0] = 1;
+	for(int i = 1; i < N; i++){
+		power1[i] = (1LL*power1[i-1] * p1) % mod1;
+		power2[i] = (1LL*power2[i-1] * p2) % mod2;
+	}
+	int inv1 = power(p1,mod1-2,mod1);
+	int inv2 = power(p2,mod2-2,mod2);
+	invMod[0]={1,1};
+	for(int i = 1; i < N; i++){
+		invMod[i].first = (1LL*invMod[i-1].first * inv1) % mod1;
+		invMod[i].second = (1LL*invMod[i-1].second * inv2) % mod2;
+	}
+ 
+}
+pair<int,int> String_hash(string s){
+	int n = s.length();
+	int hs1= 0, hs2 = 0;
+	for(int i = 0; i < n; i++){
+		hs1 += 1LL*s[i] * power1[i] % mod1;
+		hs2 += 1LL*s[i] * power2[i] % mod2;
+		hs1 %= mod1;
+		hs2 %= mod2;
+	}
+	return {hs1,hs2};
+}
+pair<int,int>prex[N];
+void pre_cal(string s){
+	int n = s.length();
+	for(int i = 0; i < n; i++){
+		prex[i].first = 1LL*s[i]*power1[i] % mod1;
+		if(i != 0) prex[i].first += prex[i-1].first;
+		prex[i].first %= mod1;
+ 
+		prex[i].second = 1LL*s[i]*power2[i] % mod2;
+		if(i != 0) prex[i].second += prex[i-1].second;
+		prex[i].second %= mod2;
+	}
+}
+pair<int,int> Get_substringHash(int l,int r){
+	pair<int,int>ans;
+	ans.first = prex[r].first;
+	ans.second = prex[r].second;
+	if(l>0) {
+		ans.first = (ans.first - prex[l-1].first + mod1) % mod1;
+		ans.second = (ans.second - prex[l-1].second + mod2) % mod2;
+	}
+	
+	ans.first = (1LL*ans.first * invMod[l].first ) % mod1;
+	ans.second = (1LL*ans.second * invMod[l].second ) % mod2;
+	return ans;
+ 
+}
+int main(){
+    ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#ifndef ONLINE_JUDGE
+freopen("input.txt","r",stdin); 
+freopen("output.txt","w",stdout); 
+#endif
+string a, b; cin >> a >> b;
+power_calculate();
+pre_cal(a);
+ 
+int n = a.length() , m = b.length();
+auto hash_b = String_hash(b);
+int ans = 0;
+for(int i = 0; i <= n - m; i++){
+	if(Get_substringHash(i,i+m-1) == hash_b) ans++;
+}
+cout << ans << '\n';
+}
