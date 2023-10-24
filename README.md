@@ -39,6 +39,16 @@
  [Problem-02 (DP+DSU) : ](https://codeforces.com/contest/741/problem/B) [My Solution](https://codeforces.com/contest/741/submission/228521967)
  
  </details>
+
+ >## String Hashing
+
+<details markdown = "1"><summary>Solved Problem</summary>
+
+[Problem-01 (Longest Common Substring) :](https://acm.timus.ru/problem.aspx?space=1&num=1517) [>> My Solution](https://pastebin.com/V7HF5sit)
+
+
+
+</details>
  
 >## Binary Search
 <details markdown = "1"><summary>Classical Problem</summary>
