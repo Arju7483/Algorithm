@@ -1,0 +1,121 @@
+//LCS of two string
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+const int N = 1e5+7,p1 = 177,p2 = 277,mod1 = 1e9+7,mod2 = 1e9+9;
+int power(long long n, long long k, int mod) {
+  int ans = 1 % mod; n %= mod; if (n < 0) n += mod;
+  while (k) {
+    if (k & 1) ans = (long long) ans * n % mod;
+    n = (long long) n * n % mod;
+    k >>= 1;
+  }
+  return ans;
+}
+
+pair<int,int>pw[N],inv[N],prex1[N],prex2[N];
+void power_cal(){
+     pw[0] = {1,1};
+     for(int i = 1; i < N; i++){
+          pw[i].first = 1LL*pw[i-1].first * p1 % mod1;
+          pw[i].second = 1LL*pw[i-1].second * p2 % mod2;
+     }
+     inv[0] = {1,1};
+     int inv1 = power(p1,mod1-2,mod1);
+     int inv2 = power(p2,mod2-2,mod2);
+     for(int i = 1; i < N; i++){
+          inv[i].first = 1LL*inv[i-1].first * inv1 % mod1;
+          inv[i].second = 1LL*inv[i-1].second * inv2 % mod2;
+     }
+}
+void pre_cal(string s1,string s2){
+     int n = s1.length();
+     for(int i = 0; i < n; i++){
+          prex1[i].first = 1LL*s1[i]*pw[i].first % mod1;
+          prex1[i].second = 1LL*s1[i]*pw[i].second % mod2;
+          if(i>0){
+               prex1[i].first = (prex1[i-1].first + prex1[i].first) % mod1;
+               prex1[i].second = (prex1[i-1].second + prex1[i].second) % mod2;
+          }
+     }
+
+      n = s2.length();
+     for(int i = 0; i < n; i++){
+          prex2[i].first = 1LL*s2[i]*pw[i].first % mod1;
+          prex2[i].second = 1LL*s2[i]*pw[i].second % mod2;
+          if(i>0){
+               prex2[i].first = (prex2[i-1].first + prex2[i].first) % mod1;
+               prex2[i].second = (prex2[i-1].second + prex2[i].second) % mod2;
+          }
+     }
+
+}
+pair<int,int> Get_hash(int l,int r,int t){
+     l--;r--;
+     pair<int,int>ans;
+     if(t == 1){
+     ans.first = prex1[r].first;
+     ans.second = prex1[r].second;
+     if(l>0){
+          ans.first = (ans.first - prex1[l-1].first+mod1) % mod1;
+          ans.second = (ans.second - prex1[l-1].second + mod2) % mod2;
+          ans.first = (1LL*ans.first * inv[l].first)%mod1;
+          ans.second = (1LL*ans.second * inv[l].second) % mod2;
+     }
+     }
+     else{
+     ans.first = prex2[r].first;
+     ans.second = prex2[r].second;
+     if(l>0){
+          ans.first = (ans.first - prex2[l-1].first+mod1) % mod1;
+          ans.second = (ans.second - prex2[l-1].second + mod2) % mod2;
+          ans.first = (1LL*ans.first * inv[l].first)%mod1;
+          ans.second = (1LL*ans.second * inv[l].second) % mod2;
+     }      
+     }
+     
+     return ans;
+}
+int start;
+bool ispossible(int n, int len){
+     map<pair<int,int>,int>mp;
+     for(int i = 1; i+len-1 <= n; i++){
+          mp[Get_hash(i,i+len-1,1)]++;
+     }
+     for(int i = 1; i+len-1 <= n; i++){
+          if(mp[Get_hash(i,i+len-1,2)]>0) 
+               {
+                    start = max(start, i-1);
+                    return true;
+               }
+     }
+     return false;
+
+}
+int32_t main() {
+  ios_base::sync_with_stdio(0);
+  cin.tie(0);cout.tie(0);
+  #ifndef ONLINE_JUDGE
+freopen("input.txt","r",stdin); 
+freopen("output.txt","w",stdout); 
+#endif
+power_cal();
+int n;cin >> n;
+string s1,s2; cin >> s1 >> s2;
+pre_cal(s1,s2);
+start = -1;
+int ans = 0, low = 1, hi = n;
+while(low <= hi){
+     int mid = (low + hi) >> 1;
+     if(ispossible(n,mid)){
+          low = mid + 1;
+          ans = mid;
+     }
+     else hi = mid - 1;
+}
+
+//cout  << ans <<" "<< start << endl;
+for(int i = start; i < start + ans and i < n; i++){
+     cout << s2[i];
+}
+}
