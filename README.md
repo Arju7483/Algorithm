@@ -37,6 +37,10 @@
  [Problem-01 (Knapsack Variation) : ](https://codeforces.com/contest/812/problem/B) [My Solution](https://codeforces.com/contest/812/submission/228498928)
 
  [Problem-02 (DP+DSU) : ](https://codeforces.com/contest/741/problem/B) [My Solution](https://codeforces.com/contest/741/submission/228521967)
+
+ [Problem-03 (knapsack) :](https://codeforces.com/contest/225/problem/C)[My Solution](https://codeforces.com/contest/225/my)
+
+ 
  
  </details>
 
