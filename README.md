@@ -57,7 +57,7 @@
 
 [Problem-04 (Cyclic Rotation) :](https://codeforces.com/contest/727/problem/E)[>>My Solution](https://codeforces.com/contest/727/submission/229781852)
 
-
+[Problem-05 (Longest Common Prefix) :](https://www.codechef.com/problems/INSQ15_A)[ >> My Solution](https://www.codechef.com/viewsolution/1027294076)
 
 
 
