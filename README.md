@@ -55,6 +55,8 @@
 
 [Problem-03 (Divisors of string) :](https://cses.fi/problemset/task/1733/)[>> My Solution](https://cses.fi/paste/9a97782d2fb7cafb7228e7/)
 
+[Problem-04 (Cyclic Rotation) :](https://codeforces.com/contest/727/problem/E)[>>My Solution](https://codeforces.com/contest/727/submission/229781852)
+
 
 
 
