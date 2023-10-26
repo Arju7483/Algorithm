@@ -1,0 +1,85 @@
+//Given a string ans q queries,in each query you are given a position p,find the LCP of s[1-p] and s[p+1,n]
+#include<bits/stdc++.h>
+#include<ext/pb_ds/assoc_container.hpp>
+#include<ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+using namespace std;
+#define ll long long
+const int N = 5e6+7, p1 = 177, p2 = 277, mod1 = 1e9+7, mod2 = 1e9+9;
+pair<int,int>pw[N],ipw[N],prex[N];
+int power(long long n, long long k, int mod) {
+  int ans = 1 % mod; n %= mod; if (n < 0) n += mod;
+  while (k) {
+    if (k & 1) ans = (long long) ans * n % mod;
+    n = (long long) n * n % mod;
+    k >>= 1;
+  }
+  return ans;
+}
+
+void power_cal(){
+    pw[0] = {1,1};
+    for(int i = 1; i < N; i++){
+        pw[i].first = 1LL*pw[i-1].first*p1 % mod1;;
+        pw[i].second = 1LL*pw[i-1].second * p2 % mod2;
+    }
+    int inv1 = power(p1,mod1-2,mod1);
+    int inv2 = power(p2,mod2-2,mod2);
+    ipw[0] = {1,1};
+    for(int i = 1; i < N; i++){
+        ipw[i].first = 1LL*ipw[i-1].first * inv1 % mod1;
+        ipw[i].second = 1LL*ipw[i-1].second * inv2 % mod2;
+    }
+}
+void build(string s){
+    int n = s.length();
+    for(int i = 0; i < n; i++){
+        prex[i].first = 1LL*s[i]*pw[i].first % mod1;
+        prex[i].second = 1LL*s[i]*pw[i].second % mod2;
+        if(i>0){
+            prex[i].first = (prex[i].first + prex[i-1].first) % mod1;
+            prex[i].second = (prex[i].second + prex[i-1].second ) % mod2;
+        }
+    }
+}
+pair<int,int> get_hash(int l,int r){
+    pair<int,int>ans;
+    ans.first = prex[r].first;
+    ans.second = prex[r].second;
+    if(l>0){
+        ans.first = (ans.first - prex[l-1].first + mod1) % mod1;
+        ans.second = (ans.second - prex[l-1].second + mod2) % mod2;
+    }
+    ans.first = 1LL*ans.first * ipw[l].first % mod1;
+    ans.second = 1LL*ans.second * ipw[l].second % mod2;
+    return ans;
+}
+
+int LCP(int l,int r,int x,int y){
+    int low = 1,hi = min(r-l+1,y-x+1),ans = 0;
+    while(low <= hi){
+        int mid = (low+hi)/2;
+        if(get_hash(l,l+mid-1) == get_hash(x,x+mid-1)){
+            ans = mid;
+            low = mid+1;
+        }
+        else hi = mid-1;
+    }
+    return ans;
+}
+int main(){
+     ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+     power_cal();
+     string s;
+     cin >> s;
+     int n = s.length();
+     build(s);
+     int q; cin >> q;
+     while(q--){
+        int p; cin >> p;
+
+        cout << LCP(0,p-1,p,n-1) << '\n';
+
+     }
+ return 0;
+}
