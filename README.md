@@ -59,7 +59,7 @@
 
 [Problem-05 (Longest Common Prefix) :](https://www.codechef.com/problems/INSQ15_A)[ >> My Solution](https://www.codechef.com/viewsolution/1027294076)
 
-
+[Problem-06 :](https://cses.fi/problemset/task/2106/) [>> My Solution](https://cses.fi/paste/a61a997a1abc29aa728dfa/)
 
 
 </details>
