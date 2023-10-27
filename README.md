@@ -29,6 +29,8 @@
 
  [Problem-11 (Task Schedulling) :](https://cses.fi/problemset/task/1140/) [>>My Solution](https://cses.fi/paste/6c072e640787358f6f894f/)
 
+ [Problem-12 (DP on Tree) :](https://codeforces.com/problemset/problem/1771/D)[>> My Solution](https://codeforces.com/contest/1771/submission/229949125)
+
  
 </details>
 
