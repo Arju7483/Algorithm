@@ -43,6 +43,8 @@
  [Problem-03 (knapsack) :](https://codeforces.com/contest/225/problem/C)[My Solution](https://codeforces.com/contest/225/submission/229642302)
 
  [Problem-04 (knapsack) :](https://codeforces.com/contest/1829/problem/H)[My Solution](https://codeforces.com/contest/1829/submission/229644568)
+
+ [Problem-05 (knapsack) :](https://codeforces.com/contest/1856/problem/E1)[My Solution](https://codeforces.com/contest/1856/submission/229957861)
  
  
  </details>
