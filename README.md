@@ -65,6 +65,8 @@
 
 [Problem-06 (Substring Counting):](https://cses.fi/problemset/task/2106/) [>> My Solution](https://cses.fi/paste/a61a997a1abc29aa728dfa/)
 
+[Problem-07 (Smallest Cyclic Rotation):](https://cses.fi/problemset/task/1110/) [>> My Solution](https://cses.fi/paste/b625ed547255d1f372da99/)
+
 
 </details>
  
