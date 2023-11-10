@@ -1,0 +1,93 @@
+//Given a string of length n ( n <= 1000). Find the number of palindromic substring.
+//Complexity O(n^2)
+#include<bits/stdc++.h>
+using namespace std;
+const int N = 5e6+7, p1 = 177, p2 = 277, mod1 = 1e9+7, mod2 = 1e9+9;
+pair<int,int>pw[N],ipw[N],prex[N],revHash[N];
+int power(long long n, long long k, int mod) {
+  int ans = 1 % mod; n %= mod; if (n < 0) n += mod;
+  while (k) {
+    if (k & 1) ans = (long long) ans * n % mod;
+    n = (long long) n * n % mod;
+    k >>= 1;
+  }
+  return ans;
+}
+
+void power_cal(){
+    pw[0] = {1,1};
+    for(int i = 1; i < N; i++){
+        pw[i].first = 1LL*pw[i-1].first*p1 % mod1;;
+        pw[i].second = 1LL*pw[i-1].second * p2 % mod2;
+    }
+    int inv1 = power(p1,mod1-2,mod1);
+    int inv2 = power(p2,mod2-2,mod2);
+    ipw[0] = {1,1};
+    for(int i = 1; i < N; i++){
+        ipw[i].first = 1LL*ipw[i-1].first * inv1 % mod1;
+        ipw[i].second = 1LL*ipw[i-1].second * inv2 % mod2;
+    }
+}
+void build(string s){
+    int n = s.length();
+    for(int i = 0; i < n; i++){
+        prex[i].first = 1LL*s[i]*pw[i].first % mod1;
+        prex[i].second = 1LL*s[i]*pw[i].second % mod2;
+        if(i>0){
+            prex[i].first = (prex[i].first + prex[i-1].first) % mod1;
+            prex[i].second = (prex[i].second + prex[i-1].second ) % mod2;
+        }
+    }
+    reverse(s.begin(),s.end());
+    for(int i = 0; i < n; i++){
+        revHash[i].first = 1LL*s[i]*pw[i].first % mod1;
+        revHash[i].second = 1LL*s[i]*pw[i].second % mod2;
+        if(i>0){
+            revHash[i].first = (revHash[i].first + revHash[i-1].first) % mod1;
+            revHash[i].second = (revHash[i].second + revHash[i-1].second ) % mod2;
+        }
+    }
+}
+pair<int,int> get_hash(int l,int r){
+    pair<int,int>ans;
+    ans.first = prex[r].first;
+    ans.second = prex[r].second;
+    if(l>0){
+        ans.first = (ans.first - prex[l-1].first + mod1) % mod1;
+        ans.second = (ans.second - prex[l-1].second + mod2) % mod2;
+    }
+    ans.first = 1LL*ans.first * ipw[l].first % mod1;
+    ans.second = 1LL*ans.second * ipw[l].second % mod2;
+    return ans;
+}
+pair<int,int> get_reverse_hash(int l,int r){
+    pair<int,int>ans;
+    ans.first = revHash[r].first;
+    ans.second = revHash[r].second;
+    if(l>0){
+        ans.first = (ans.first - revHash[l-1].first + mod1) % mod1;
+        ans.second = (ans.second - revHash[l-1].second + mod2) % mod2;
+    }
+    ans.first = 1LL*ans.first * ipw[l].first % mod1;
+    ans.second = 1LL*ans.second * ipw[l].second % mod2;
+    return ans;
+}
+
+
+
+int main(){
+     ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+     power_cal();
+     string s;
+     cin >> s;
+     int n = s.length();
+     build(s);
+     int ans = 0;
+        for(int i = 0; i < n; i++){
+            for(int j = i; j < n; j++){
+                if(get_hash(i,j) == get_reverse_hash(n-j-1,n-i-1))ans++;
+            }
+        }
+        cout << ans << endl;
+    return 0;
+}
