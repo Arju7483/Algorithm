@@ -69,6 +69,8 @@
 
 [Problem-08 (Longest Palindromic substring):](https://cses.fi/problemset/task/1111/)[>>My Solution](https://cses.fi/paste/7264daa2e28575e07507e6/)
 
+[Problem-09 (Hasing + segment tree):](https://cses.fi/problemset/task/2420/)[>>My Solution](https://cses.fi/paste/9472b488935c0d95750c95/)
+
 
 </details>
  
