@@ -67,6 +67,8 @@
 
 [Problem-07 (Smallest Cyclic Rotation):](https://cses.fi/problemset/task/1110/) [>> My Solution](https://cses.fi/paste/b625ed547255d1f372da99/)
 
+[Problem-08 (Longest Palindromic substring):](https://cses.fi/problemset/task/1111/)[>>My Solution](https://cses.fi/paste/7264daa2e28575e07507e6/)
+
 
 </details>
  
