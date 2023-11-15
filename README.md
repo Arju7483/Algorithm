@@ -53,23 +53,26 @@
 
 <details markdown = "1"><summary>Solved Problem</summary>
 
-[Problem-01 (Longest Common Substring) :](https://acm.timus.ru/problem.aspx?space=1&num=1517) [>> My Solution](https://pastebin.com/V7HF5sit)
+[Problem-01 (Longest Common Substring) :](https://acm.timus.ru/problem.aspx?space=1&num=1517) &nbsp;[>> My Solution](https://pastebin.com/V7HF5sit)
 
-[Problem-02 (Pattern Matching) :](https://cses.fi/problemset/task/1753/) [>> My Solution](https://cses.fi/paste/7e1b1cf11ea2a6ce71aae5/)
+[Problem-02 (Pattern Matching) :](https://cses.fi/problemset/task/1753/) &nbsp; [>> My Solution](https://cses.fi/paste/7e1b1cf11ea2a6ce71aae5/)
 
 [Problem-03 (Divisors of string) :](https://cses.fi/problemset/task/1733/)[>> My Solution](https://cses.fi/paste/9a97782d2fb7cafb7228e7/)
 
-[Problem-04 (Cyclic Rotation) :](https://codeforces.com/contest/727/problem/E)[>>My Solution](https://codeforces.com/contest/727/submission/229781852)
+[Problem-04 (Cyclic Rotation) :](https://codeforces.com/contest/727/problem/E) &nbsp; [>>My Solution](https://codeforces.com/contest/727/submission/229781852)
 
-[Problem-05 (Longest Common Prefix) :](https://www.codechef.com/problems/INSQ15_A)[ >> My Solution](https://www.codechef.com/viewsolution/1027294076)
+[Problem-05 (Longest Common Prefix) :](https://www.codechef.com/problems/INSQ15_A) &nbsp; [>> My Solution](https://www.codechef.com/viewsolution/1027294076)
 
-[Problem-06 (Substring Counting):](https://cses.fi/problemset/task/2106/) [>> My Solution](https://cses.fi/paste/a61a997a1abc29aa728dfa/)
+[Problem-06 (Substring Counting):](https://cses.fi/problemset/task/2106/) &nbsp; [>> My Solution](https://cses.fi/paste/a61a997a1abc29aa728dfa/)
 
-[Problem-07 (Smallest Cyclic Rotation):](https://cses.fi/problemset/task/1110/) [>> My Solution](https://cses.fi/paste/b625ed547255d1f372da99/)
+[Problem-07 (Smallest Cyclic Rotation):](https://cses.fi/problemset/task/1110/) &nbsp;  [>> My Solution](https://cses.fi/paste/b625ed547255d1f372da99/)
 
-[Problem-08 (Longest Palindromic substring):](https://cses.fi/problemset/task/1111/)[>>My Solution](https://cses.fi/paste/7264daa2e28575e07507e6/)
+[Problem-08 (Longest Palindromic substring):](https://cses.fi/problemset/task/1111/) &nbsp; [>>My Solution](https://cses.fi/paste/7264daa2e28575e07507e6/)
 
-[Problem-09 (Hasing + segment tree):](https://cses.fi/problemset/task/2420/)[>>My Solution](https://cses.fi/paste/9472b488935c0d95750c95/)
+[Problem-09 (Hasing + segment tree):](https://cses.fi/problemset/task/2420/) &nbsp; [>>My Solution](https://cses.fi/paste/9472b488935c0d95750c95/)
+
+[Problem-10 (Number of palindromic substring):](https://acmp.ru/asp/do/index.asp?main=task&id_course=2&id_section=18&id_topic=43&id_problem=285&locale=en) &nbsp;
+[>>My Solution](https://pastebin.com/iMMsWrtP)
 
 
 </details>
