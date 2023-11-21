@@ -74,6 +74,8 @@
 [Problem-10 (Number of palindromic substring):](https://acmp.ru/asp/do/index.asp?main=task&id_course=2&id_section=18&id_topic=43&id_problem=285&locale=en) &nbsp;
 [>>My Solution](https://pastebin.com/iMMsWrtP)
 
+[Problem-11 (Hasing+dp):](https://codeforces.com/problemset/problem/835/D) &nbsp; [>>My Solution](https://codeforces.com/contest/835/submission/233638499)
+
 
 </details>
  
