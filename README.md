@@ -76,6 +76,8 @@
 
 [Problem-11 (Hasing+dp):](https://codeforces.com/problemset/problem/835/D) &nbsp; [>>My Solution](https://codeforces.com/contest/835/submission/233638499)
 
+[Problem-12](https://codeforces.com/contest/1849/problem/C) &nbsp; [>>My Solution](https://codeforces.com/contest/1849/submission/233667289)
+
 
 </details>
  
