@@ -36,15 +36,17 @@
 
 <details markdown = "1"><summary>Random DP Problem</summary>
 
- [Problem-01 (Knapsack Variation) : ](https://codeforces.com/contest/812/problem/B) [My Solution](https://codeforces.com/contest/812/submission/228498928)
+ [Problem-01 (Knapsack Variation) : ](https://codeforces.com/contest/812/problem/B) &nbsp; [My Solution](https://codeforces.com/contest/812/submission/228498928)
 
- [Problem-02 (DP+DSU) : ](https://codeforces.com/contest/741/problem/B) [My Solution](https://codeforces.com/contest/741/submission/228521967)
+ [Problem-02 (DP+DSU) : ](https://codeforces.com/contest/741/problem/B) &nbsp; [My Solution](https://codeforces.com/contest/741/submission/228521967)
 
- [Problem-03 (knapsack) :](https://codeforces.com/contest/225/problem/C)[My Solution](https://codeforces.com/contest/225/submission/229642302)
+ [Problem-03 (knapsack) :](https://codeforces.com/contest/225/problem/C) &nbsp; [My Solution](https://codeforces.com/contest/225/submission/229642302)
 
- [Problem-04 (knapsack) :](https://codeforces.com/contest/1829/problem/H)[My Solution](https://codeforces.com/contest/1829/submission/229644568)
+ [Problem-04 (knapsack) :](https://codeforces.com/contest/1829/problem/H) &nbsp; [My Solution](https://codeforces.com/contest/1829/submission/229644568)
 
- [Problem-05 (knapsack) :](https://codeforces.com/contest/1856/problem/E1)[My Solution](https://codeforces.com/contest/1856/submission/229957861)
+ [Problem-05 (knapsack) :](https://codeforces.com/contest/1856/problem/E1) &nbsp; [My Solution](https://codeforces.com/contest/1856/submission/229957861)
+
+ [Problem-06 (knapsack) :](https://atcoder.jp/contests/abc303/tasks/abc303_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc303/submissions/47838660)
  
  
  </details>
