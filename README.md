@@ -47,7 +47,8 @@
  [Problem-05 (knapsack) :](https://codeforces.com/contest/1856/problem/E1) &nbsp; [My Solution](https://codeforces.com/contest/1856/submission/229957861)
 
  [Problem-06 (knapsack) :](https://atcoder.jp/contests/abc303/tasks/abc303_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc303/submissions/47838660)
- 
+
+ [Problem-07 (knapsack) :](https://codeforces.com/contest/711/problem/C) &nbsp; [My Solution](https://codeforces.com/contest/711/submission/234183591)
  
  </details>
 
