@@ -49,6 +49,9 @@
  [Problem-06 (knapsack) :](https://atcoder.jp/contests/abc303/tasks/abc303_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc303/submissions/47838660)
 
  [Problem-07 (knapsack) :](https://codeforces.com/contest/711/problem/C) &nbsp; [My Solution](https://codeforces.com/contest/711/submission/234183591)
+
+ [Problem-08 (knapsack) :](https://atcoder.jp/contests/abc128/tasks/abc128_d?lang=en) &nbsp; [My Solution](https://atcoder.jp/contests/abc128/submissions/48961794)
+ 
  
  </details>
 
