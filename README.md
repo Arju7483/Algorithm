@@ -65,6 +65,14 @@
  
  </details>
 
+  </details>
+
+ <details markdown = "1"><summary>Digit DP</summary>
+
+ [Problem-01 :(Classic Problem)](https://ideone.com/SLmUn6)
+ 
+ </details>
+
  >## String Hashing
 
 <details markdown = "1"><summary>Solved Problem</summary>
