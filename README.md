@@ -58,6 +58,8 @@
  <details markdown = "1"><summary>Bitmask DP</summary>
 
  [Problme-01 :](https://www.codechef.com/problems/TSHIRTS?tab=statement) &nbsp; [My Solution](https://www.codechef.com/viewsolution/1033929156)
+
+ [Problem-02 :(Classic Problem)](https://ideone.com/NcwIuX)
  
  </details>
 
