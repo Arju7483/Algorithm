@@ -70,6 +70,8 @@
  <details markdown = "1"><summary>Digit DP</summary>
 
  [Problem-01 :(Classic Problem)](https://ideone.com/SLmUn6)
+
+ [Problem-02 :](https://lightoj.com/problem/investigation) &nbsp; [My Solution](https://lightoj.com/submission/3028774)
  
  </details>
 
