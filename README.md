@@ -51,6 +51,8 @@
  [Problem-07 (knapsack) :](https://codeforces.com/contest/711/problem/C) &nbsp; [My Solution](https://codeforces.com/contest/711/submission/234183591)
 
  [Problem-08 (knapsack) :](https://atcoder.jp/contests/abc128/tasks/abc128_d?lang=en) &nbsp; [My Solution](https://atcoder.jp/contests/abc128/submissions/48961794)
+
+ [Problem-09 (Combinatorics+DP) :](https://www.codechef.com/problems/DISTELE?tab=statement) &nbsp; [My Solution](https://www.codechef.com/viewsolution/1038963983)
  
  
  </details>
