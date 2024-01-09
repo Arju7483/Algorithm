@@ -74,6 +74,10 @@
  [Problem-01 :(Classic Problem)](https://ideone.com/SLmUn6)
 
  [Problem-02 :](https://lightoj.com/problem/investigation) &nbsp; [My Solution](https://lightoj.com/submission/3028774)
+
+ [Problem-03 :](https://codeforces.com/contest/1036/problem/C) &nbsp; [My Solution](https://codeforces.com/contest/1036/submission/240877328)
+
+ 
  
  </details>
 
