@@ -77,7 +77,7 @@
 
  [Problem-03 :](https://codeforces.com/contest/1036/problem/C) &nbsp; [My Solution](https://codeforces.com/contest/1036/submission/240877328)
 
-[Problem-04 :](https://www.spoj.com/problems/PR003004/) &nbsp; [My Solution ](https://www.spoj.com/status/ns=32446598)
+[Problem-04 :](https://www.spoj.com/problems/PR003004/) &nbsp; [My Solution ](https://ideone.com/et1Tmy)
  
  
  </details>
