@@ -55,6 +55,9 @@
  [Problem-09 (Combinatorics+DP) :](https://www.codechef.com/problems/DISTELE?tab=statement) &nbsp; [My Solution](https://www.codechef.com/viewsolution/1038963983)
  
  [Problem-10 :](https://atcoder.jp/contests/abc114/tasks/abc114_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc114/submissions/49188212)
+
+ [Problem-11 :](https://www.codechef.com/problems/EXACTSAVINGS) &nbsp; [My Solution](https://www.codechef.com/viewsolution/1039646106)
+ 
  </details>
 
  <details markdown = "1"><summary>Bitmask DP</summary>
