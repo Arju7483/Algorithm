@@ -121,5 +121,7 @@
 >## Binary Search
 <details markdown = "1"><summary>Classical Problem</summary>
  
- [Problem-01:](https://codeforces.com/contest/1878/problem/E) [>>My Solution](https://codeforces.com/contest/1878/submission/225456730)
+ [Problem-01:](https://codeforces.com/contest/1878/problem/E) [My Solution](https://codeforces.com/contest/1878/submission/225456730)
+
+ [Problem-02:](https://atcoder.jp/contests/abc341/tasks/abc341_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc341/submissions/50766162)
 </details>
