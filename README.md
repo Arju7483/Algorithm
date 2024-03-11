@@ -118,10 +118,18 @@
 
 </details>
  
->## Binary Search
+>## Game Theory
 <details markdown = "1"><summary>Classical Problem</summary>
  
- [Problem-01:](https://codeforces.com/contest/1878/problem/E) [My Solution](https://codeforces.com/contest/1878/submission/225456730)
+ [Problem-01: Nim Game ](https://lightoj.com/problem/incredible-chess) &nbsp;[My Solution](https://lightoj.com/submission/31008350)
 
  [Problem-02:](https://atcoder.jp/contests/abc341/tasks/abc341_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc341/submissions/50766162)
+</details>
+ 
+>## Game Theory
+<details markdown = "1"><summary>Classical Problem</summary>
+ 
+ [Problem-01: Nim Game variation](https://lightoj.com/problem/incredible-chess) &nbsp;[My Solution](https://lightoj.com/submission/3100835)
+
+ [Problem-02: Nim Game variation](https://lightoj.com/problem/left-right) &nbsp; [My Solution](https://lightoj.com/submission/3100854)
 </details>
