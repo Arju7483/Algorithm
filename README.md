@@ -118,12 +118,10 @@
 
 </details>
  
->## Game Theory
+>## Binary Search
 <details markdown = "1"><summary>Classical Problem</summary>
  
- [Problem-01: Nim Game ](https://lightoj.com/problem/incredible-chess) &nbsp;[My Solution](https://lightoj.com/submission/31008350)
-
- [Problem-02:](https://atcoder.jp/contests/abc341/tasks/abc341_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc341/submissions/50766162)
+ [Problem-01:](https://atcoder.jp/contests/abc341/tasks/abc341_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc341/submissions/50766162)
 </details>
  
 >## Game Theory
@@ -132,4 +130,6 @@
  [Problem-01: Nim Game variation](https://lightoj.com/problem/incredible-chess) &nbsp;[My Solution](https://lightoj.com/submission/3100835)
 
  [Problem-02: Nim Game variation](https://lightoj.com/problem/left-right) &nbsp; [My Solution](https://lightoj.com/submission/3100854)
+
+ [Problem-03: Grundey Theorem(Nim variation)](https://lightoj.com/problem/again-stone-game) &nbsp; [My Solution](https://lightoj.com/submission/3119577)
 </details>
