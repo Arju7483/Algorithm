@@ -122,6 +122,9 @@
 <details markdown = "1"><summary>Classical Problem</summary>
  
  [Problem-01:](https://atcoder.jp/contests/abc341/tasks/abc341_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc341/submissions/50766162)
+
+ [Problem-02:](https://codeforces.com/contest/1856/problem/C) &nbsp; [My Solution](https://codeforces.com/contest/1856/submission/253612361)
+ 
 </details>
  
 >## Game Theory
