@@ -118,6 +118,8 @@
 [Problem-12](https://codeforces.com/contest/1849/problem/C) &nbsp; [>>My Solution](https://codeforces.com/contest/1849/submission/233667289)
 
  [Problem-13 :(With dp)](https://codeforces.com/contest/1950/problem/G) &nbsp; [My Solution](https://codeforces.com/contest/1950/submission/254014717)
+
+ [Problem-14 : (Palindrome)](https://codeforces.com/contest/1951/problem/E) &nbsp; [My Solution](https://codeforces.com/contest/1951/submission/255525443)
  
 </details>
  
