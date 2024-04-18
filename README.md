@@ -57,6 +57,8 @@
  [Problem-10 :](https://atcoder.jp/contests/abc114/tasks/abc114_d) &nbsp; [My Solution](https://atcoder.jp/contests/abc114/submissions/49188212)
 
  [Problem-11 :](https://www.codechef.com/problems/EXACTSAVINGS) &nbsp; [My Solution](https://www.codechef.com/viewsolution/1039646106)
+
+ [Problem-12 :](https://codeforces.com/problemset/problem/1714/D) &nbsp; [My Solution](https://codeforces.com/contest/1714/submission/257176157)
  
  </details>
 
