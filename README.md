@@ -133,7 +133,14 @@
  [Problem-02:](https://codeforces.com/contest/1856/problem/C) &nbsp; [My Solution](https://codeforces.com/contest/1856/submission/253612361)
  
 </details>
- 
+
+ >## Ternary Search
+ <details markdown = "1"><summary>Solved Problem</summary>
+  
+  [Problem-01:](https://www.codechef.com/problems/ICM2003?tab=statement) &nbsp; [My Solution](https://www.codechef.com/viewsolution/1058939029)
+  
+ </details>
+  
 >## Game Theory
 <details markdown = "1"><summary>Classical Problem</summary>
  
