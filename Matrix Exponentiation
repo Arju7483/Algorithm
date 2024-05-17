@@ -1,0 +1,93 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+const int mod = 1e9+7;
+struct Matrix {
+        int n, m;
+        vector <vector <int>> mat;
+
+        Matrix() {}
+
+        Matrix(int _n, int _m) {
+                n = _n, m = _m;
+                mat = vector <vector <int>> (n, vector <int> (m));
+        }
+
+        void print() {
+                for(int i = 0; i < n; i++) {
+                        for(int j = 0; j < m; j++) {
+                                printf("%d", mat[i][j]);
+                                if(j == m - 1) {
+                                        printf("\n");
+                                }
+                                else {
+                                        printf(" ");
+                                }
+                        }
+                }
+        }
+};
+
+Matrix Multiply(Matrix a, Matrix b, int Mod) {
+        Matrix c = Matrix(a.n, b.m);
+        for(int i = 0; i < a.n; i++) {
+                for(int j = 0; j < b.m; j++) {
+                        c.mat[i][j] = 0;
+                        for(int k = 0; k < a.m; k++) {
+                                c.mat[i][j] += (1LL * a.mat[i][k] * b.mat[k][j]) % Mod;
+                                c.mat[i][j] %= Mod;
+                        }
+                }
+        }
+        return c;
+}
+
+Matrix Add(Matrix a, Matrix b, int Mod) {
+        Matrix c = Matrix(a.n, a.n);
+        for(int i = 0; i < a.n; i++) {
+                for(int j = 0; j < a.n; j++) {
+                        c.mat[i][j] = a.mat[i][j] + b.mat[i][j];
+                        c.mat[i][j] %= Mod;
+                }
+        }
+        return c;
+}
+
+Matrix Matrix_Exp(Matrix a, ll p, int Mod) {
+        if(p == 1) {
+                return a;
+        }
+        Matrix ans = Matrix_Exp(a, p / 2, Mod);
+        ans = Multiply(ans, ans, Mod);
+        if(p & 1) {
+                ans = Multiply(ans, a, Mod);
+        }
+        return ans;
+}
+
+void solve(){
+    int r,c;
+    cin >> r >> c;
+    Matrix m(r,c);
+    for(int i = 0; i < r; i++){
+        for(int j = 0; j < c; j++){
+            cin >> m.mat[i][j];
+        }
+    }
+    m = Matrix_Exp(m,2,mod);
+    for(int i = 0; i < r; i++){
+        for(int j = 0; j < c; j++){
+            cout << m.mat[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+}
+int main(){
+    ios::sync_with_stdio(false);cin.tie(0);
+#ifndef ONLINE_JUDGE
+freopen("input.txt","r",stdin); 
+freopen("output.txt","w",stdout); 
+#endif
+    solve();
+}
