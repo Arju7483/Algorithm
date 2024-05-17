@@ -149,4 +149,13 @@
  [Problem-02: Nim Game variation](https://lightoj.com/problem/left-right) &nbsp; [My Solution](https://lightoj.com/submission/3100854)
 
  [Problem-03: Grundey Theorem(Nim variation)](https://lightoj.com/problem/again-stone-game) &nbsp; [My Solution](https://lightoj.com/submission/3119577)
+ 
 </details>
+
+ >## Matrix Exponentiation
+ <details markdown = "1"><summary>Solved Problem</summary>
+  
+  [Problem-01:Fibonacci Number](https://cses.fi/problemset/task/1722/) &nbsp; [My Solution](https://cses.fi/paste/71fcef4cb209a28e8d9e44/)
+  
+ </details>
+  
