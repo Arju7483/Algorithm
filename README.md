@@ -155,7 +155,7 @@
  >## Matrix Exponentiation
  <details markdown = "1"><summary>Solved Problem</summary>
   
-  [Problem-01:Fibonacci Number](https://cses.fi/problemset/task/1722/) &nbsp; [My Solution](https://cses.fi/paste/71fcef4cb209a28e8d9e44/)
+  [Problem-01:Fibonacci Number](https://cses.fi/problemset/task/1722/) &nbsp; [My Solution](https://cses.fi/paste/d0c0a2a2ad88ccdb8dc981/)
   
  </details>
   
