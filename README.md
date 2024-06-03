@@ -162,4 +162,10 @@
   [Problem-02:CSES 1096](https://cses.fi/problemset/task/1096/) &nbsp; [My Solution](https://cses.fi/paste/40317a9f39aa10c38dcc33/)
   
  </details>
+
+   >## Bit Manipulation
+ <details markdown = "1"><summary>Solved Problem</summary>
   
+  [Problem-01: ](https://codeforces.com/gym/102134/problem/H) &nbsp; [My Solution](https://ideone.com/OuRNVq)
+  
+ </details>
