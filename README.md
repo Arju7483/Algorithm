@@ -124,6 +124,8 @@
  [Problem-13 :(With dp)](https://codeforces.com/contest/1950/problem/G) &nbsp; [My Solution](https://codeforces.com/contest/1950/submission/254014717)
 
  [Problem-14 : (Palindrome)](https://codeforces.com/contest/1951/problem/E) &nbsp; [My Solution](https://codeforces.com/contest/1951/submission/255525443)
+
+ [Problem-15: ](https://codeforces.com/contest/126/problem/B) &nbsp; [My Solution](https://codeforces.com/contest/126/my)
  
 </details>
  
