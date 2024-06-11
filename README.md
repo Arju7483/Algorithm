@@ -126,6 +126,8 @@
  [Problem-14 : (Palindrome)](https://codeforces.com/contest/1951/problem/E) &nbsp; [My Solution](https://codeforces.com/contest/1951/submission/255525443)
 
  [Problem-15: ](https://codeforces.com/contest/126/problem/B) &nbsp; [My Solution](https://codeforces.com/contest/126/my)
+
+ [Problem-16: ](https://codeforces.com/problemset/problem/245/H) &nbsp; [My Solution](https://codeforces.com/contest/245/submission/265137296)
  
 </details>
  
