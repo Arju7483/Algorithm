@@ -61,6 +61,8 @@
  [Problem-12 :](https://codeforces.com/problemset/problem/1714/D) &nbsp; [My Solution](https://codeforces.com/contest/1714/submission/257176157)
 
  [Problem-13 :](https://atcoder.jp/contests/abc262/tasks/abc262_d?lang=en) &nbsp; [My Solution](https://atcoder.jp/contests/abc262/submissions/54208780)
+
+ [Problem-14 :)(https://codeforces.com/contest/245/problem/H) &nbsp; [My Solution](https://codeforces.com/contest/245/submission/265140910)
  
  </details>
 
