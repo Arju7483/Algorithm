@@ -127,7 +127,7 @@
 
  [Problem-15: ](https://codeforces.com/contest/126/problem/B) &nbsp; [My Solution](https://codeforces.com/contest/126/my)
 
- [Problem-16: ](https://codeforces.com/problemset/problem/245/H) &nbsp; [My Solution](https://codeforces.com/contest/245/submission/265137296)
+ [Problem-16: Hashing + dp ](https://codeforces.com/problemset/problem/245/H) &nbsp; [My Solution](https://codeforces.com/contest/245/submission/265137296) &nbsp; [Dp solution](https://codeforces.com/contest/245/submission/265139387)
  
 </details>
  
