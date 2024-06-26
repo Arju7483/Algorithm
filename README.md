@@ -62,7 +62,9 @@
 
  [Problem-13 :](https://atcoder.jp/contests/abc262/tasks/abc262_d?lang=en) &nbsp; [My Solution](https://atcoder.jp/contests/abc262/submissions/54208780)
 
- [Problem-14 :)(https://codeforces.com/contest/245/problem/H) &nbsp; [My Solution](https://codeforces.com/contest/245/submission/265140910)
+ [Problem-14 :](https://codeforces.com/contest/245/problem/H) &nbsp; [My Solution](https://codeforces.com/contest/245/submission/265140910)
+
+ [Problem-15 (BS+DP):](https://codeforces.com/contest/1982/problem/C) &nbsp; [My Solution](https://codeforces.com/contest/1982/submission/267460000)
  
  </details>
 
