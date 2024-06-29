@@ -136,6 +136,8 @@
  [Problem-16: (Hashing + dp) ](https://codeforces.com/problemset/problem/245/H) &nbsp; [>>My Solution](https://codeforces.com/contest/245/submission/265137296) &nbsp; [>>Dp solution](https://codeforces.com/contest/245/submission/265139387)
 
  [Problem-16: (Cyclic Shift)](https://acmp.ru/index.asp?main=task&id_task=829) &nbsp; [>>My solution](https://ideone.com/qW0LIM)
+
+ [Problem-17:(Merging two substring)](https://www.codechef.com/START140B/problems/BREAKSTRING) &nbsp; [>>My Solution](https://www.codechef.com/viewsolution/1067541881)
  
  
 </details>
