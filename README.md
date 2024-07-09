@@ -184,5 +184,7 @@
   [Problem-01: ](https://codeforces.com/gym/102134/problem/H) &nbsp; [My Solution](https://ideone.com/OuRNVq)
 
   [Problem-02: ](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/description/) &nbsp; [My Solution](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/solutions/5433339/solve-with-bitmanipulation/)
+
+  [Problem-03: ](https://codeforces.com/problemset/problem/1946/D) &nbsp; [My Solution](https://codeforces.com/contest/1946/submission/269601790)
   
  </details>
