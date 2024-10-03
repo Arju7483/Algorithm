@@ -191,3 +191,10 @@
   [Problem-03: ](https://codeforces.com/problemset/problem/1946/D) &nbsp; [My Solution](https://codeforces.com/contest/1946/submission/269601790)
   
  </details>
+
+   >## Expected Value and Probability
+ <details markdown = "1"><summary>Solved Problem</summary>
+  
+  [Problem-01: Expected Value](https://toph.co/p/morona-virus-arrived) &nbsp; [https://ideone.com/o2Og9F)
+  
+ </details>
