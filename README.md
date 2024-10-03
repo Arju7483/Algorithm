@@ -195,6 +195,6 @@
    >## Expected Value and Probability
  <details markdown = "1"><summary>Solved Problem</summary>
   
-  [Problem-01: Expected Value](https://toph.co/p/morona-virus-arrived) &nbsp; [https://ideone.com/o2Og9F)
+  [Problem-01: Expected Value](https://toph.co/p/morona-virus-arrived) &nbsp; [My Solution](https://ideone.com/o2Og9F)
   
  </details>
