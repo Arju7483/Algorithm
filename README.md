@@ -196,5 +196,7 @@
  <details markdown = "1"><summary>Solved Problem</summary>
   
   [Problem-01: Expected Value](https://toph.co/p/morona-virus-arrived) &nbsp; [My Solution](https://ideone.com/o2Og9F)
+
+  [Problem-02: ](https://toph.co/p/building-the-number) &nbsp; [My Solution](https://ideone.com/AR4yVH)
   
  </details>
