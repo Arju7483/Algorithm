@@ -84,6 +84,8 @@
  [Problem-03 :(Classic Problem)](https://ideone.com/ZLdMET)
 
  [Problem-03 :(With Hashing)](https://codeforces.com/contest/1950/problem/G) &nbsp; [My Solution](https://codeforces.com/contest/1950/submission/254014717)
+
+ [Problem-04:](https://atcoder.jp/contests/dp/tasks/dp_o) &nbsp; [My Solution](https://atcoder.jp/contests/dp/submissions/58759793)
  
  </details>
 
