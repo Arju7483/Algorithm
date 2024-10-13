@@ -171,6 +171,8 @@
  [Problem-02: Nim Game variation](https://lightoj.com/problem/left-right) &nbsp; [My Solution](https://lightoj.com/submission/3100854)
 
  [Problem-03: Grundey Theorem(Nim variation)](https://lightoj.com/problem/again-stone-game) &nbsp; [My Solution](https://lightoj.com/submission/3119577)
+
+ [Problem-04: DP](https://atcoder.jp/contests/dp/tasks/dp_k) &nbsp; [My Solution](https://atcoder.jp/contests/dp/submissions/58757901)
  
 </details>
 
