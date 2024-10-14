@@ -190,6 +190,8 @@
   [Problem-04: K-length path](https://atcoder.jp/contests/dp/tasks/dp_r) &nbsp; [My Solution](https://atcoder.jp/contests/dp/submissions/58804254)
 
   [Problem-05: CSES-1723](https://cses.fi/problemset/task/1723/) &nbsp; [My Solution](https://cses.fi/paste/7e2ef0199c3cb5a8a589b3/)
+
+  [Problem-06: CSES-1724(Using Distance Product)](https://cses.fi/problemset/task/1724/) &nbsp; [My Solution](https://cses.fi/paste/5ff4a20d95626759a58b63/)
   
  </details>
 
