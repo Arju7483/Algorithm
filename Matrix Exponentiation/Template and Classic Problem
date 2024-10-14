@@ -1,0 +1,90 @@
+//f(n) = a1*f(n − 1) + a2*f(n − 2) + a3*f(n − 3) + . . . + ad*f(n − d) where a1,a2,a3,...ad and f1,f2,f3....fd is given,Find nth term with modulo MOD
+
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+struct Matrix {
+        int n, m;
+        vector <vector <int>> mat;
+
+        Matrix() {}
+
+        Matrix(int _n, int _m) {
+                n = _n, m = _m;
+                mat = vector <vector <int>> (n, vector <int> (m));
+        }
+        vector<int>& operator[](int i) {
+        return mat[i];  // use to access an index mat[i][j] from main function
+    }
+        void input(int i,int j){
+        	cin >> mat[i][j];
+        }
+
+        void print() {
+                for(int i = 0; i < n; i++) {
+                        for(int j = 0; j < m; j++) {
+                                printf("%d", mat[i][j]);
+                                if(j == m - 1) {
+                                        printf("\n");
+                                }
+                                else {
+                                        printf(" ");
+                                }
+                        }
+                }
+        }
+};
+Matrix Multiply(Matrix a, Matrix b, int Mod) {
+        Matrix c = Matrix(a.n, b.m);
+        for(int i = 0; i < a.n; i++) {
+                for(int j = 0; j < b.m; j++) {
+                        c.mat[i][j] = 0;
+                        for(int k = 0; k < a.m; k++) {
+                                c.mat[i][j] += (1LL * a.mat[i][k] * b.mat[k][j]) % Mod;
+                                c.mat[i][j] %= Mod;
+                        }
+                }
+        }
+        return c;
+}
+Matrix Matrix_Exp(Matrix a, ll p, int Mod) {
+        if(p == 1) {
+                return a;
+        }
+        Matrix ans = Matrix_Exp(a, p / 2, Mod);
+        ans = Multiply(ans, ans, Mod);
+        if(p & 1) {
+                ans = Multiply(ans, a, Mod);
+        }
+        return ans;
+}
+void solve(){
+	int d,n,Mod;
+cin >> d >> n >> Mod;
+
+	Matrix A(1,d), M =  Matrix(d,d);
+	for(int i = d-1; i >= 0; i--){
+		M.input(i,d-1);
+	}
+	for(int i = 0; i < d; i++){
+		A.input(0,i);
+	}
+	if(n-d <= 0){
+		cout << A[0][n-1] << endl;return;
+	}
+	for(int i = 1; i < d; i++){
+		M[i][i-1] = 1;
+	}
+	M = Matrix_Exp(M,n-d,Mod);
+	A = Multiply(A,M,Mod);
+	cout << A[0][d-1] << endl;
+
+}
+int main(){
+    ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+    int t=1; cin >> t;
+    while(t--){
+    	solve();
+    }
+
+}
