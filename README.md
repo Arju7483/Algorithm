@@ -184,6 +184,8 @@
   [Problem-01:Fibonacci Number](https://cses.fi/problemset/task/1722/) &nbsp; [My Solution](https://cses.fi/paste/d0c0a2a2ad88ccdb8dc981/)
 
   [Problem-02:CSES 1096](https://cses.fi/problemset/task/1096/) &nbsp; [My Solution](https://cses.fi/paste/40317a9f39aa10c38dcc33/)
+
+  [Problem-03:Classic](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1811) &nbsp; [My Solution](https://ideone.com/OvCY84)
   
  </details>
 
