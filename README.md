@@ -186,6 +186,8 @@
   [Problem-02:CSES 1096](https://cses.fi/problemset/task/1096/) &nbsp; [My Solution](https://cses.fi/paste/40317a9f39aa10c38dcc33/)
 
   [Problem-03:Classic](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1811) &nbsp; [My Solution](https://ideone.com/OvCY84)
+
+  [Problem-04: K-length path](https://atcoder.jp/contests/dp/tasks/dp_r) &nbsp; [My Solution](https://atcoder.jp/contests/dp/submissions/58804254)
   
  </details>
 
