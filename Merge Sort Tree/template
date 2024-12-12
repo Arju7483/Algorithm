@@ -1,5 +1,6 @@
 //Space complexity: O(nlog(n))
 //Time complexity: O(n log(n)^2 )
+//Number of integer in l to r strictly greater than k
 #include<bits/stdc++.h>
 using namespace std;
 const int N = 30000+9;
