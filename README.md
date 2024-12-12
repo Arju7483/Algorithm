@@ -214,3 +214,11 @@
   [Problem-02: ](https://toph.co/p/building-the-number) &nbsp; [My Solution](https://ideone.com/AR4yVH)
   
  </details>
+
+   >## Merge Sort Tree
+ <details markdown = "1"><summary>Solved Problem</summary>
+  
+  [Problem-01:Classic](https://www.spoj.com/problems/KQUERY/) &nbsp; [My Solution](https://ideone.com/YSVHTU)
+
+  
+ </details>
