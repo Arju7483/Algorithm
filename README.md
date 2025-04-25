@@ -220,5 +220,6 @@
   
   [Problem-01:Classic](https://www.spoj.com/problems/KQUERY/) &nbsp; [My Solution](https://ideone.com/YSVHTU)
 
+  [Problem-01:Classic](https://toph.co/p/dengue-affected-areas) &nbsp; [My Solution](https://toph.co/s/1659289)
   
  </details>
